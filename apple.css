@@ -1,12 +1,12 @@
 header{
   background-image: url(images/your_verse_hero.jpg);
-  padding-right: 250px;
-  padding-left: 250px;
-  padding-top: 400px;
-  background-position: bottom;
+ 
+  background-position:bottom;
   text-align: center;
   margin-left: 30px;
   margin-right: 30px;
+  padding-top: 300px;
+  max-height: 350px;
   
 }
 
@@ -14,33 +14,69 @@ header{
   display: inline-block;
   position: absolute;
   left: 550px;
-  top: 40px
-}
-h1{
+  top: 40px;
   
+  
+
 }
+
+  
+
 
 .button {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333;;
-  padding: 5px 7px 5px 7px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
+  background-color: gray;
+  color: white;
+  padding: 8px 14px 8px 14px;
   position: relative;
-    
-  
+  display: inline-block;
 }
 
 
    
 .grid{
+ 
+ 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 30px;
-  margin-right: 30px;
   text-align: center;
+  margin-top: 250px;
+}
+
+
+  
+font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');}
+
+.text-1{
+  color: white;
+  font-family: "open sans";
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  top:240px;
+  left: 485px;
+  font-size: 25px;
+  
+}
+
+.text-2{
+  color: white;
+  font-family:"open sans";
+  font-size: 15px
+}
+
+.text-3{
+color:white;
+text-decoration: none;
+font-family: "open sans";
+}
+
+
+  
+.iphone-5s{
+  
 }
