@@ -41,7 +41,8 @@ header{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 290px;
+  
 }
 
 
@@ -78,7 +79,8 @@ font-family: "open sans";
 
   
 .iphone-5s{
-  
+  width: 364px;
+    height: 200px;
 }
 
 .a{
