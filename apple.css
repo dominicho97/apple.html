@@ -41,7 +41,7 @@ header{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-  margin-top: 290px;
+  margin-top: 243px;
   
 }
 
@@ -58,29 +58,37 @@ font-face {
   font-family: "open sans";
   -webkit-font-smoothing: antialiased;
   position: absolute;
-  top:240px;
-  left: 485px;
-  font-size: 25px;
+  top:200px;
+  left: 280px;
+  font-size: 15px;
   
 }
 
 .text-2{
   color: white;
   font-family:"open sans";
-  font-size: 15px
+  font-size: 15px;
+  
+  left: 250px;
+  
 }
 
 .text-3{
-color:white;
-text-decoration: none;
-font-family: "open sans";
+  
+
+  font-family: "open sans";
 }
 
+.text-3 a{
+  text-decoration: none ;
+  color:white;
+}
 
   
 .iphone-5s{
   width: 364px;
-    height: 200px;
+  height: 197px;
+
 }
 
 .a{
