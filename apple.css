@@ -73,11 +73,7 @@ font-face {
   
 }
 
-.text-3{
-  
 
-  font-family: "open sans";
-}
 
 .text-3 a{
   text-decoration: none ;
@@ -91,6 +87,7 @@ font-face {
 
 }
 
-.a{
-  text-decoration: none;
+ .iphone-5c{
+    background-image: linear-gradient(-27deg, red, orange);
 }
+
